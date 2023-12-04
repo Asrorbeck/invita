@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@charset "UTF-8";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../img/Слой 5.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero__header {
+  font-size: 101px;
+  font-family: Vontgod;
+}/*# sourceMappingURL=main.css.map */

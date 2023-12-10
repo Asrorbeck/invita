@@ -58,7 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    width: 100%;
     margin-bottom: 10px;
   }
 
@@ -70,7 +70,7 @@
 
   &__calendar-weekday,
   &__calendar-month {
-    font-family: amsterdam;
+    font-family: avander;
     font-size: 25px;
     color: #842121;
   }
@@ -78,8 +78,7 @@
   &__calendar-wrapper {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    gap: 30px;
+    justify-content: space-between;
     width: 100%;
     margin-bottom: 25px;
   }
@@ -265,7 +264,7 @@
   }
 
   &__program-item-header {
-    font-family: amsterdam;
+    font-family: avander;
     font-size: 25px;
   }
 
@@ -331,7 +330,7 @@
   }
 
   &__time-header {
-    font-size: 30px;
+    font-size: 25px;
     font-family: amsterdam;
     margin-bottom: 40px;
     color: #842121;

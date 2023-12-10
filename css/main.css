@@ -103,8 +103,8 @@ body {
 
 .navbar__logo {
   font-family: cormorant;
-  font-size: 20px;
-  color: #842121;
+  font-size: 25px;
+  color: #fff;
 }
 
 .menu {
@@ -281,7 +281,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  width: 100%;
   margin-bottom: 10px;
 }
 .main__calendar-month-name {
@@ -290,15 +290,14 @@ body {
   margin-bottom: 20px;
 }
 .main__calendar-weekday, .main__calendar-month {
-  font-family: amsterdam;
+  font-family: avander;
   font-size: 25px;
   color: #842121;
 }
 .main__calendar-wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 30px;
+  justify-content: space-between;
   width: 100%;
   margin-bottom: 25px;
 }
@@ -451,7 +450,7 @@ body {
   width: 100%;
 }
 .main__program-item-header {
-  font-family: amsterdam;
+  font-family: avander;
   font-size: 25px;
 }
 .main__program-item-time {
@@ -506,7 +505,7 @@ body {
   font-family: constan;
 }
 .main__time-header {
-  font-size: 30px;
+  font-size: 25px;
   font-family: amsterdam;
   margin-bottom: 40px;
   color: #842121;

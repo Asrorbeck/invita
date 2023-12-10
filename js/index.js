@@ -31,7 +31,7 @@ setInterval(updateCountdown, 1000);
 
 
 document.getElementById("openMaps").addEventListener("click", function () {
-  const address = "Restaurant HYATT";
+  const address = "HYATT Regency Tashkent";
 
   if (/iphone|ipad|ipod/i.test(navigator.userAgent)) {
     // Open Yandex Maps on iOS

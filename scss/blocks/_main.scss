@@ -227,6 +227,9 @@
   }
 
   &__location-yandex {
+    border: none;
+    outline: none;
+    cursor: pointer;
     font-family: constan;
     font-size: 18px;
     color: #fff;

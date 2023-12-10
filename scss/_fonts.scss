@@ -31,3 +31,12 @@
   src: url('../fonts/Allaina-Regular.otf'),
     url('../fonts/Allaina-Regular.ttf') format('truetype')
 }
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: cormorant;
+  font-weight: 400;
+  src: url('../fonts/cormorant-garamond-v16-latin-regular.woff2') format('woff2'),
+    url('../fonts/cormorant-garamond-v16-latin-regular.ttf') format('truetype');
+}

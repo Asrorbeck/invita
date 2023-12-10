@@ -23,6 +23,7 @@
 
   &__calendar-img {
     margin-bottom: 30px;
+    max-width: 900px;
   }
 
   &__calendar-item {
@@ -55,14 +56,14 @@
   &__calendar-wrapper {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 20px;
     width: 100%;
     margin-bottom: 25px;
   }
 
   &__container {
-    max-width: 300px;
+    max-width: 900px;
     background-color: rgba(255, 255, 255, 0.65);
     padding: 20px;
     display: flex;
@@ -71,13 +72,47 @@
     justify-content: center;
   }
 
-  &__dress-body {}
+  &__dress-body {
+    font-family: constan;
+    font-family: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-  &__dress-header {}
+  &__dress-header {
+    font-family: amsterdam;
+    font-size: 35px;
+    color: #842121;
+    margin-bottom: 30px;
+  }
 
-  &__dress-item {}
+  &__dress-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #6A6763;
+  }
 
-  &__dress-list {}
+  &__dress-item:nth-child(2) {
+    background-color: #fff;
+  }
+
+  &__dress-item:nth-child(3) {
+    background-color: #842121;
+  }
+
+  &__dress-item:nth-child(4) {
+    background-color: #10473B;
+  }
+
+  &__dress-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
 
   &__event-img {}
 
@@ -95,9 +130,18 @@
 
   &__form-wrapper {}
 
-  &__guest-body {}
+  &__guest-body {
+    font-family: constan;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
 
-  &__guest-header {}
+  &__guest-header {
+    font-family: avander;
+    font-size: 35px;
+    color: #842121;
+  }
 
   &__header {
     font-family: avander;
@@ -106,15 +150,46 @@
     margin-bottom: 20px;
   }
 
-  &__location-address {}
+  &__location-address {
+    font-family: cormorant;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
 
-  &__location-header {}
+  &__location-header {
+    font-family: avander;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
 
-  &__location-img {}
+  &__location-img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
 
-  &__location-place {}
+  &__location-place {
+    font-family: constan;
+    font-size: 18px;
+    padding: 10px 23px;
+    background-color: #842121;
+    color: #fff;
+    margin-bottom: 15px;
+  }
 
-  &__location-yandex {}
+  &__iframe {
+    max-width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  &__location-yandex {
+    font-family: constan;
+    font-size: 18px;
+    color: #fff;
+    padding: 6px 19px;
+    background-color: #343434;
+    margin-bottom: 50px;
+  }
 
   &__month-wraper {
     display: flex;
@@ -124,19 +199,66 @@
     margin-bottom: 15px;
   }
 
-  &__program-header {}
+  &__program-header {
+    font-family: avander;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #842121;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
 
-  &__program-item {}
+  &__program-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
 
-  &__program-item-header {}
+  &__program-item-header {
+    font-family: amsterdam;
+    font-size: 25px;
+  }
 
-  &__program-item-img {}
+  &__program-item-time {
+    font-family: allaina;
+    font-size: 25px;
+    padding: 3px 50px 3px 15px;
+    background-color: #842121;
+    border-radius: 40px 0px 0px 40px;
+    color: #fff;
+    margin-right: 25px;
+  }
 
-  &__program-item-time {}
+  &__program-item-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
 
-  &__program-item-wrapper {}
+  &__program-item-wrapper::after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right: 0%;
+    background-image: url('../../img/banquet.JPG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 5px solid rgba(255, 255, 255, 0.65);
+  }
 
-  &__program-list {}
+  &__program-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+  }
 
   &__social-link {}
 

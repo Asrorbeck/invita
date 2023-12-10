@@ -350,6 +350,18 @@ body {
   background-position: center;
   border: 5px solid rgba(255, 255, 255, 0.65);
 }
+.main__program-item:nth-child(2) .main__program-item-wrapper::after {
+  background-image: url("../../img/Show.jpg");
+  background-size: cover;
+}
+.main__program-item:nth-child(3) .main__program-item-wrapper::after {
+  background-image: url("../../img/Awards.jpg");
+  background-size: cover;
+}
+.main__program-item:nth-child(4) .main__program-item-wrapper::after {
+  background-image: url("../../img/Presents.jpg");
+  background-size: cover;
+}
 .main__program-list {
   display: flex;
   align-items: center;

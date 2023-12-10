@@ -13,11 +13,49 @@
 <body>
     <header class="header">
         <div class="container">
+            <div class="navbar">
+                <div class="menu-button" onclick="toggleMenu()">
+                    <span class="menu-icon">&#9776;</span>
+                </div>
+
+                <a href="#" class="navbar__logo">INVITATION</a>
+
+                <button id="navbar__btn" class="navbar__btn"><img width="20" id="music-icon" src="./img/mute.svg"
+                        alt="mute music">
+                </button>
+            </div>
+
+            <div class="menu-overlay" onclick="toggleMenu()"></div>
+
+            <div class="menu">
+                <div class="menu-header">
+                    <span class="close-button" onclick="toggleMenu()">&times;</span>
+                </div>
+
+                <ul>
+
+                    <li><a href="#invit">TAKLIF ETAMIZ!</a></li>
+
+                    <li><a href="#date">QACHON?</a></li>
+
+                    <li><a href="#adres">QAYERDA?</a></li>
+
+                    <li><a href="#program">NIMALAR BO’LADI?</a></li>
+
+                    <li><a href="#dres">KIYINISH USLUBI QANDAY?</a></li>
+
+                    <li><a href="#time__remaining">QANCHA VAQT QOLDI?</a></li>
+
+                    <li><a href="#form">KELA OLASIZMI?</a></li>
+
+                    <li><a href="https://t.me/+puSbAxf6WbdlNmM6" target="_blank">TELEGRAM GURUH</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
     <main class="main">
-        <section class="hero">
+        <section class="hero" data-aos="fade" data-aos-duration="3000">
             <div class="container">
                 <div class="hero__container">
                     <h2 class="hero__header">Invitation</h2>
@@ -30,9 +68,10 @@
         <section class="main">
             <div class="container">
                 <div class="main__container">
-                    <h4 class="main__header">Dear Friends!</h4>
+                    <h4 class="main__header" data-aos="fade" data-aos-duration="3000">Dear Friends!</h4>
 
-                    <p class="main__body">Thank You for our fruitful cooperation and your contribution to the
+                    <p class="main__body" data-aos="fade" data-aos-duration="3000">Thank You for our fruitful
+                        cooperation and your contribution to the
                         development of our company.
                         <br>
                         <br>
@@ -42,7 +81,7 @@
 
                     <!-- //////////////////////////////// -->
 
-                    <div class="main__calendar-wrapper">
+                    <div class="main__calendar-wrapper" data-aos="fade" data-aos-duration="3000">
                         <p class="main__calendar-weekday">Thursday</p>
 
                         <h4 class="main__calendar-day">27</h4>
@@ -50,13 +89,13 @@
                         <p class="main__calendar-month">December</p>
                     </div>
 
-                    <div class="main__month-wraper">
+                    <div class="main__month-wraper" data-aos="fade" data-aos-duration="3000">
                         <p class="main__calendar-month-name">December</p>
 
                         <p class="main__calendar-month-name">2023</p>
                     </div>
 
-                    <ul class="main__calendar-list">
+                    <ul class="main__calendar-list" data-aos="fade" data-aos-duration="3000">
                         <li class="main__calendar-item">Mon</li>
                         <li class="main__calendar-item">Tue</li>
                         <li class="main__calendar-item">Wed</li>
@@ -66,17 +105,19 @@
                         <li class="main__calendar-item">Sun</li>
                     </ul>
 
-                    <div class="main__calendar-img-wrapper">
+                    <div class="main__calendar-img-wrapper" data-aos="fade" data-aos-duration="3000">
                         <img src="./img/calendar.png" alt="calendar" class="main__calendar-img" width="300">
                     </div>
 
                     <!-- ////////////////////////// -->
 
-                    <img src="./img/img2.png" alt="" class="main__event-img" width="300">
+                    <img src="./img/img2.png" data-aos="fade" data-aos-duration="3000" alt="" class="main__event-img"
+                        width="300">
 
-                    <h4 class="main__program-header">PROGRAM <br> OF THE EVENT:</h4>
+                    <h4 class="main__program-header" data-aos="fade" data-aos-duration="3000">PROGRAM <br> OF THE EVENT:
+                    </h4>
 
-                    <ul class="main__program-list">
+                    <ul class="main__program-list" data-aos="fade" data-aos-duration="3000">
                         <li class="main__program-item">
                             <p class="main__program-item-header">Banquet</p>
 
@@ -112,15 +153,17 @@
 
                     <!-- /////////////////////////// -->
 
-                    <img src="./img/img1.png" alt="" class="main__location-img" width="300">
+                    <img src="./img/img1.png" data-aos="fade" data-aos-duration="3000" alt="" class="main__location-img"
+                        width="300">
 
-                    <h4 class="main__location-header">LOCATION</h4>
+                    <h4 class="main__location-header" data-aos="fade" data-aos-duration="3000">LOCATION</h4>
 
-                    <p class="main__location-place">RESTAURANT HYATT</p>
+                    <p class="main__location-place" data-aos="fade" data-aos-duration="3000">RESTAURANT HYATT</p>
 
-                    <p class="main__location-address">1A, Navoi Avenue, Tashkent</p>
+                    <p class="main__location-address" data-aos="fade" data-aos-duration="3000">1A, Navoi Avenue,
+                        Tashkent</p>
 
-                    <iframe class="main__iframe"
+                    <iframe class="main__iframe" data-aos="fade" data-aos-duration="3000"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.655617729652!2d69.2754470750502!3d41.31635490039974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b302631a383%3A0x324fb78013c57369!2sHyatt%20Regency%20Tashkent!5e0!3m2!1sru!2s!4v1702191195112!5m2!1sru!2s"
                         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
@@ -129,13 +172,14 @@
 
                     <!-- ////////////////////////////////// -->
 
-                    <h4 class="main__dress-header">Dress Code</h4>
+                    <h4 class="main__dress-header" data-aos="fade" data-aos-duration="3000">Dress Code</h4>
 
-                    <p class="main__dress-body">We are waiting for you in a festive mood and in beautiful outfits in
+                    <p class="main__dress-body" data-aos="fade" data-aos-duration="3000">We are waiting for you in a
+                        festive mood and in beautiful outfits in
                         colours of the celebration palette.
                     </p>
 
-                    <ul class="main__dress-list">
+                    <ul class="main__dress-list" data-aos="fade" data-aos-duration="3000">
                         <li class="main__dress-item"></li>
                         <li class="main__dress-item"></li>
                         <li class="main__dress-item"></li>
@@ -144,13 +188,13 @@
 
                     <!-- /////////////////////////////////// -->
 
-                    <h4 class="main__guest-header">GUEST FORM</h4>
+                    <h4 class="main__guest-header" data-aos="fade" data-aos-duration="3000">GUEST FORM</h4>
 
                     <p class="main__guest-body">Please answer a few questions that we have prepared for You. We will be
                         grateful if you confirm your presence until 12/19/2023.
                     </p>
 
-                    <form onsubmit=" return sendTelegram()" class="main__form">
+                    <form onsubmit=" return sendTelegram()" class="main__form" data-aos="fade" data-aos-duration="3000">
                         <input required class="main__form-input" placeholder="Your name and surname*" name="name"
                             id="name" type="text">
 
@@ -171,11 +215,13 @@
                         <button class="main__form-submit" type="submit">SEND</button>
                     </form>
 
-                    <h4 class="main__time-header">See you at the New Year Celebration!</h4>
+                    <h4 class="main__time-header" data-aos="fade" data-aos-duration="3000">See you at the New Year
+                        Celebration!</h4>
 
-                    <p class="main__time-subheader">TIME LEFT TILL THE EVENT...</p>
+                    <p class="main__time-subheader" data-aos="fade" data-aos-duration="3000">TIME LEFT TILL THE EVENT...
+                    </p>
 
-                    <ul class="main__time-list" id="time">
+                    <ul class="main__time-list" id="time" data-aos="fade" data-aos-duration="3000">
                         <li class="main__time-item">
                             <h3 id="days" class="main__time-number">00</h3>
 
@@ -201,9 +247,10 @@
                         </li>
                     </ul>
 
-                    <img src="./img/w.jpg" alt="footer img" class="main__footer-img">
+                    <img src="./img/w.jpg" data-aos="fade" data-aos-duration="3000" alt="footer img"
+                        class="main__footer-img">
 
-                    <a href="#" class="main__footer-link">le_invitations</a>
+                    <a href="#" class="main__footer-link" data-aos="fade" data-aos-duration="3000">le_invitations</a>
 
                     <div class="main__footer-wrapper" data-aos="fade" data-aos-duration="3000">
                         <!-- <a href="tel:+998998515582" class="main__social-link"><img src="./img/call.svg" alt=""></a>
@@ -221,6 +268,16 @@
         </section>
     </main>
 </body>
+
+<!-- <audio id="background-music" style="display: none" autoplay loop muted>
+    <source src="./music/music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio> -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 <script src="./js/index.js"></script>
 <script src="./js/telegram.js"></script>

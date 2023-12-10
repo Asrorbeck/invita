@@ -41,3 +41,10 @@ document.getElementById("openMaps").addEventListener("click", function () {
     window.location.href = `https://yandex.com/maps/?text=${encodeURIComponent(address)}`;
   }
 });
+
+function toggleMenu() {
+  var menu = document.querySelector('.menu');
+  var overlay = document.querySelector('.menu-overlay');
+  menu.classList.toggle('menu-open');
+  overlay.style.display = overlay.style.display === 'block' ? 'none' : 'block';
+}

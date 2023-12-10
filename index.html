@@ -13,7 +13,6 @@
 <body>
     <header class="header">
         <div class="container">
-
         </div>
     </header>
 
@@ -73,7 +72,7 @@
 
                     <!-- ////////////////////////// -->
 
-                    <img src="" alt="" class="main__event-img">
+                    <img src="./img/img2.png" alt="" class="main__event-img" width="300">
 
                     <h4 class="main__program-header">PROGRAM <br> OF THE EVENT:</h4>
 
@@ -113,7 +112,7 @@
 
                     <!-- /////////////////////////// -->
 
-                    <img src="./img/img1.png" alt="" class="main__location-img" width="250">
+                    <img src="./img/img1.png" alt="" class="main__location-img" width="300">
 
                     <h4 class="main__location-header">LOCATION</h4>
 
@@ -151,7 +150,7 @@
                         grateful if you confirm your presence until 12/19/2023.
                     </p>
 
-                    <form class="main__form">
+                    <form onsubmit=" return sendTelegram()" class="main__form">
                         <input required class="main__form-input" placeholder="Your name and surname*" name="name"
                             id="name" type="text">
 
@@ -224,5 +223,6 @@
 </body>
 
 <script src="./js/index.js"></script>
+<script src="./js/telegram.js"></script>
 
 </html>

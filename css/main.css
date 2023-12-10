@@ -103,6 +103,29 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.main__answer-label {
+  font-family: constan;
+  font-size: 18px;
+}
+.main__form-submit {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 10px 50px;
+  background-color: #842121;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.main__form-header {
+  font-size: 18px;
+  font-family: constan;
+  margin-bottom: 10px;
+}
 .main__body {
   font-family: constan;
   text-align: center;
@@ -156,6 +179,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .main__dress-body {
   font-family: constan;
@@ -191,6 +215,31 @@ body {
   max-width: 200px;
   width: 100%;
   margin-bottom: 50px;
+}
+.main__footer-img {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+.main__footer-link {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: #842121;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__form-input {
+  border: none;
+  outline: none;
+  background: none;
+  border: 2px solid #842121;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 300px;
+  margin-bottom: 10px;
 }
 .main__guest-body {
   font-family: constan;
@@ -304,6 +353,38 @@ body {
   flex-direction: column;
   width: 100%;
   gap: 50px;
+}
+.main__time-body {
+  font-size: 13px;
+  font-family: constan;
+}
+.main__time-header {
+  font-size: 40px;
+  font-family: amsterdam;
+  margin-bottom: 40px;
+}
+.main__time-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main__time-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.main__time-number {
+  font-family: avander;
+  font-size: 40px;
+}
+.main__time-subheader {
+  font-size: 20px;
+  font-family: avander;
+  margin-bottom: 10px;
 }
 .main__calendar-img-wrapper {
   position: relative;

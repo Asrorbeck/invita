@@ -1,11 +1,23 @@
 .hero {
-  &__container {}
 
-  &__header {
-    // font-size: 101px;
-    font-family: Vontgod;
-
+  &__container {
+    margin-bottom: 50px;
   }
 
-  &__header-dec {}
+  &__header {
+    font-size: 50px;
+    font-family: amsterdam;
+    color: #D2A650;
+    text-align: center;
+    margin-top: 75px;
+    line-height: 70px;
+  }
+
+  &__subheader {
+    font-size: 40px;
+    font-family: amsterdam;
+    color: #D2A650;
+    text-align: center;
+    line-height: 40px;
+  }
 }

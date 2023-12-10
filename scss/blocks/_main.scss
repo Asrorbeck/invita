@@ -1,0 +1,172 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__answer {}
+
+  &__answer-label {}
+
+  &__body {
+    font-family: constan;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  &__calendar-day {
+    font-family: allaina;
+    color: #842121;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  &__calendar-img {
+    margin-bottom: 30px;
+  }
+
+  &__calendar-item {
+    font-family: constan;
+    font-size: 16px;
+
+  }
+
+  &__calendar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  &__calendar-month-name {
+    font-family: constan;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  &__calendar-weekday,
+  &__calendar-month {
+    font-family: amsterdam;
+    font-size: 25px;
+    color: #842121;
+  }
+
+  &__calendar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  &__container {
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__dress-body {}
+
+  &__dress-header {}
+
+  &__dress-item {}
+
+  &__dress-list {}
+
+  &__event-img {}
+
+  &__footer-img {}
+
+  &__footer-link {}
+
+  &__footer-wrapper {}
+
+  &__form {}
+
+  &__form-answer-wrapper {}
+
+  &__form-input {}
+
+  &__form-wrapper {}
+
+  &__guest-body {}
+
+  &__guest-header {}
+
+  &__header {
+    font-family: avander;
+    color: #842121;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  &__location-address {}
+
+  &__location-header {}
+
+  &__location-img {}
+
+  &__location-place {}
+
+  &__location-yandex {}
+
+  &__month-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__program-header {}
+
+  &__program-item {}
+
+  &__program-item-header {}
+
+  &__program-item-img {}
+
+  &__program-item-time {}
+
+  &__program-item-wrapper {}
+
+  &__program-list {}
+
+  &__social-link {}
+
+  &__time-body {}
+
+  &__time-header {}
+
+  &__time-item {}
+
+  &__time-list {}
+
+  &__time-number {}
+
+  &__time-subheader {}
+
+  &__calendar-img-wrapper {
+    position: relative;
+  }
+
+  &__calendar-img-wrapper::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 65px;
+    background-image: url('../../img/sh.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1000;
+    bottom: calc(0% + 17px);
+    left: calc(0% + 80px);
+  }
+}

@@ -344,7 +344,7 @@
   }
 
   &__time-header {
-    font-size: 25px;
+    font-size: 20px;
     font-family: amsterdam;
     margin-bottom: 40px;
     color: #842121;
@@ -388,12 +388,11 @@
     content: "";
     display: inline-block;
     width: 55px;
-    height: 65px;
-    background-image: url('../img/sh.png');
+    height: 50px;
+    background-image: url('../../img/sh.png');
     background-repeat: no-repeat;
     background-size: contain;
-    bottom: calc(0% + 15px);
-    left: calc(0% + 92px);
-    transform: rotate(45deg);
+    bottom: calc(0% + 22px);
+    left: calc(0% + 93px);
   }
 }

@@ -12,7 +12,7 @@ function sendTelegram() {
   // Construct the message
   var message = `Name: ${name}
 
-Will they come: ${answer}`;
+Will he/she come?: ${answer}`;
 
   // Telegram Bot API endpoint for sending messages
   var apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;

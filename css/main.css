@@ -327,9 +327,12 @@ body::before {
   margin-bottom: 20px;
 }
 .main__calendar-weekday, .main__calendar-month {
-  font-family: avander;
+  font-family: amsterdam;
   font-size: 25px;
   color: #842121;
+}
+.main__calendar-weekday {
+  padding-left: 20px;
 }
 .main__calendar-wrapper {
   display: flex;
@@ -499,8 +502,9 @@ body::before {
   margin-bottom: 30px;
 }
 .main__program-item-header {
-  font-family: avander;
+  font-family: amsterdam;
   font-size: 25px;
+  padding-left: 20px;
 }
 .main__program-item-time {
   font-family: allaina;

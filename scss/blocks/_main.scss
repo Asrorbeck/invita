@@ -71,9 +71,13 @@
 
   &__calendar-weekday,
   &__calendar-month {
-    font-family: avander;
+    font-family: amsterdam;
     font-size: 25px;
     color: #842121;
+  }
+
+  &__calendar-weekday {
+    padding-left: 20px;
   }
 
   &__calendar-wrapper {
@@ -276,8 +280,9 @@
   }
 
   &__program-item-header {
-    font-family: avander;
+    font-family: amsterdam;
     font-size: 25px;
+    padding-left: 20px;
   }
 
   &__program-item-time {

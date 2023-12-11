@@ -37,13 +37,13 @@
 
                     <li><a href="#invit">We invite you!</a></li>
 
-                    <li><a href="#date">Plan</a></li>
+                    <li><a href="#plan">Plan</a></li>
 
                     <li><a href="#adres">How to get there?</a></li>
 
-                    <li><a href="#program">Dress code</a></li>
+                    <li><a href="#dres">Dress code</a></li>
 
-                    <li><a href="#dres">Questionnaire</a></li>
+                    <li><a href="#question">Questionnaire</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +62,7 @@
 
         <section class="main">
             <div class="container">
-                <div class="main__container">
+                <div id="invit" class="main__container">
                     <h4 class="main__header" data-aos="fade" data-aos-duration="2000">Dear Friends!</h4>
 
                     <p class="main__body" data-aos="fade" data-aos-duration="2000">Thank You for our fruitful
@@ -112,7 +112,7 @@
                     <h4 class="main__program-header" data-aos="fade" data-aos-duration="2000">PROGRAM <br> OF THE EVENT:
                     </h4>
 
-                    <ul class="main__program-list" data-aos="fade" data-aos-duration="2000">
+                    <ul id="plan" class="main__program-list" data-aos="fade" data-aos-duration="2000">
                         <li class="main__program-item">
                             <p class="main__program-item-header">Banquet</p>
 
@@ -151,7 +151,7 @@
                     <img src="./img/img1.png" data-aos="fade" data-aos-duration="2000" alt="" class="main__location-img"
                         width="300">
 
-                    <h4 class="main__location-header" data-aos="fade" data-aos-duration="2000">LOCATION</h4>
+                    <h4 id="adres" class="main__location-header" data-aos="fade" data-aos-duration="2000">LOCATION</h4>
 
                     <p class="main__location-place" data-aos="fade" data-aos-duration="2000">RESTAURANT "HYATT"</p>
 
@@ -167,7 +167,7 @@
 
                     <!-- ////////////////////////////////// -->
 
-                    <h4 class="main__dress-header" data-aos="fade" data-aos-duration="2000">Dress Code</h4>
+                    <h4 id="dres" class="main__dress-header" data-aos="fade" data-aos-duration="2000">Dress Code</h4>
 
                     <p class="main__dress-body" data-aos="fade" data-aos-duration="2000">We are waiting for you in a
                         festive mood and in beautiful outfits in
@@ -189,7 +189,8 @@
                         grateful if you confirm your presence until 12/19/2023.
                     </p>
 
-                    <form onsubmit=" return sendTelegram()" class="main__form" data-aos="fade" data-aos-duration="2000">
+                    <form id="question" onsubmit=" return sendTelegram()" class="main__form" data-aos="fade"
+                        data-aos-duration="2000">
                         <input required class="main__form-input" placeholder="Your name and surname*" name="name"
                             id="name" type="text">
 

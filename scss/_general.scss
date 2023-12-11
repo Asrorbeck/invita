@@ -12,6 +12,11 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
+    -webkit-background-size: cover;
+    /* Add this line for iOS support */
+    -moz-background-size: cover;
+    /* Add this line for Firefox support */
+    -o-background-size: cover;
 }
 
 body::before {

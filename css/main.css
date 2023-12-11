@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 h1,
 h2,
 h3,
@@ -30,6 +37,7 @@ img {
   font-weight: 400;
   src: url("../fonts/amsterdam.ttf") format("truetype");
 }
+
 @font-face {
   font-display: swap;
   font-family: constan;
@@ -37,6 +45,7 @@ img {
   font-weight: 400;
   src: url("../fonts/constan.ttf") format("truetype");
 }
+
 @font-face {
   font-display: swap;
   font-family: avander;
@@ -44,6 +53,7 @@ img {
   font-weight: 400;
   src: url("../fonts/avander.otf"), url("../fonts/avander.ttf") format("truetype");
 }
+
 @font-face {
   font-display: swap;
   font-family: allaina;
@@ -51,6 +61,7 @@ img {
   font-weight: 400;
   src: url("../fonts/Allaina-Regular.otf"), url("../fonts/Allaina-Regular.ttf") format("truetype");
 }
+
 /* cormorant-garamond-regular - latin */
 @font-face {
   font-display: swap;
@@ -58,6 +69,7 @@ img {
   font-weight: 400;
   src: url("../fonts/cormorant-garamond-v16-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v16-latin-regular.ttf") format("truetype");
 }
+
 html {
   scroll-behavior: smooth;
   margin: 0;
@@ -86,6 +98,8 @@ body::before {
   left: 0;
   width: 100%;
   height: 379px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.42)));
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.42) 90%);
   background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.42) 90%);
 }
 
@@ -107,9 +121,15 @@ body::before {
   color: #fff;
   z-index: 100;
   padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 
@@ -132,6 +152,8 @@ body::before {
   width: 250px;
   height: 100%;
   background-color: #f6f6f6;
+  -webkit-transition: left 0.3s ease-in-out;
+  -o-transition: left 0.3s ease-in-out;
   transition: left 0.3s ease-in-out;
   z-index: 1000;
 }
@@ -140,9 +162,18 @@ body::before {
   list-style: none;
   padding: 0;
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -181,7 +212,7 @@ body::before {
   z-index: 99;
 }
 
-.menu-open + .menu-overlay {
+.menu-open+.menu-overlay {
   display: block;
 }
 
@@ -242,6 +273,8 @@ body::before {
   border-radius: 50%;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: -1;
 }
@@ -249,6 +282,7 @@ body::before {
 .hero__container {
   margin-bottom: 50px;
 }
+
 .hero__header {
   font-size: 50px;
   font-family: amsterdam;
@@ -257,6 +291,7 @@ body::before {
   margin-top: 90px;
   line-height: 70px;
 }
+
 .hero__subheader {
   font-size: 40px;
   font-family: amsterdam;
@@ -266,14 +301,23 @@ body::before {
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 .main__answer-label {
   font-family: constan;
   font-size: 18px;
 }
+
 .main__form-submit {
   cursor: pointer;
   border: none;
@@ -288,11 +332,13 @@ body::before {
   margin-top: 15px;
   margin-bottom: 40px;
 }
+
 .main__form-header {
   font-size: 18px;
   font-family: constan;
   margin-bottom: 10px;
 }
+
 .main__body {
   font-family: constan;
   text-align: center;
@@ -300,113 +346,174 @@ body::before {
   margin-bottom: 30px;
   max-width: 280px;
 }
+
 .main__calendar-day {
   font-family: allaina;
   color: #842121;
   font-size: 60px;
   line-height: 60px;
 }
+
 .main__calendar-img {
   margin-bottom: 30px;
   max-width: 900px;
 }
+
 .main__calendar-item {
   font-family: constan;
   font-size: 16px;
 }
+
 .main__calendar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 10px;
 }
+
 .main__calendar-month-name {
   font-family: constan;
   font-size: 18px;
   margin-bottom: 20px;
 }
-.main__calendar-weekday, .main__calendar-month {
+
+.main__calendar-weekday,
+.main__calendar-month {
   font-family: avander;
   font-size: 25px;
   color: #842121;
 }
+
 .main__calendar-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 25px;
 }
+
 .main__container {
   max-width: 900px;
   background-color: rgba(255, 255, 255, 0.65);
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding-top: 100px;
   margin-bottom: 100px;
   padding-bottom: 100px;
 }
+
 .main__dress-body {
   font-family: constan;
   font-family: 18px;
   text-align: center;
   margin-bottom: 20px;
 }
+
 .main__dress-header {
   font-family: amsterdam;
   font-size: 35px;
   color: #842121;
   margin-bottom: 30px;
 }
+
 .main__dress-item {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #6A6763;
 }
+
 .main__dress-item:nth-child(2) {
   background-color: #fff;
 }
+
 .main__dress-item:nth-child(3) {
   background-color: #842121;
 }
+
 .main__dress-item:nth-child(4) {
   background-color: #10473B;
 }
+
 .main__dress-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 200px;
   width: 100%;
   margin-bottom: 50px;
 }
+
 .main__footer-img {
   max-width: 300px;
   margin-bottom: 20px;
 }
+
 .main__footer-link {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
   color: #842121;
   margin-bottom: 70px;
 }
+
 .main__footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 250px;
   width: 100%;
 }
+
 .main__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 .main__form-input {
   border: none;
   outline: none;
@@ -418,39 +525,46 @@ body::before {
   width: 300px;
   margin-bottom: 10px;
 }
+
 .main__guest-body {
   font-family: constan;
   font-size: 18px;
   text-align: center;
   margin-bottom: 28px;
 }
+
 .main__guest-header {
   font-family: avander;
   font-size: 35px;
   color: #842121;
   margin-bottom: 15px;
 }
+
 .main__header {
   font-family: avander;
   color: #842121;
   font-size: 45px;
   margin-bottom: 20px;
 }
+
 .main__location-address {
   font-family: cormorant;
   font-size: 18px;
   margin-bottom: 15px;
   color: #842121;
 }
+
 .main__location-header {
   font-family: avander;
   font-size: 30px;
   margin-bottom: 15px;
 }
+
 .main__location-img {
   margin-top: 50px;
   margin-bottom: 30px;
 }
+
 .main__location-place {
   font-family: constan;
   font-size: 18px;
@@ -459,11 +573,13 @@ body::before {
   color: #fff;
   margin-bottom: 15px;
 }
+
 .main__iframe {
   max-width: 300px;
   height: 250px;
   margin-bottom: 20px;
 }
+
 .main__location-yandex {
   border: none;
   outline: none;
@@ -475,13 +591,21 @@ body::before {
   background-color: #343434;
   margin-bottom: 50px;
 }
+
 .main__month-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 15px;
 }
+
 .main__program-header {
   font-family: avander;
   font-size: 40px;
@@ -491,17 +615,26 @@ body::before {
   margin-top: 70px;
   margin-bottom: 30px;
 }
+
 .main__program-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 30px;
 }
+
 .main__program-item-header {
   font-family: avander;
   font-size: 25px;
 }
+
 .main__program-item-time {
   font-family: allaina;
   font-size: 25px;
@@ -511,20 +644,29 @@ body::before {
   color: #fff;
   margin-right: 25px;
 }
+
 .main__program-item:nth-child(2) .main__program-item-time {
   padding: 3px 50px 3px 25px;
 }
+
 .main__program-item:nth-child(1) .main__program-item-time {
   padding: 3px 50px 3px 25px;
 }
+
 .main__program-item:nth-child(4) .main__program-item-time {
   padding: 3px 50px 3px 23px;
 }
+
 .main__program-item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: relative;
 }
+
 .main__program-item-wrapper::after {
   position: absolute;
   display: inline-block;
@@ -539,28 +681,41 @@ body::before {
   background-position: center;
   border: 5px solid rgba(255, 255, 255, 0.65);
 }
+
 .main__program-item:nth-child(2) .main__program-item-wrapper::after {
   background-image: url("../img/Show.jpg");
   background-size: cover;
 }
+
 .main__program-item:nth-child(3) .main__program-item-wrapper::after {
   background-image: url("../img/Awards.jpg");
   background-size: cover;
 }
+
 .main__program-item:nth-child(4) .main__program-item-wrapper::after {
   background-image: url("../img/Presents.jpg");
   background-size: cover;
 }
+
 .main__program-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
 }
+
 .main__time-body {
   font-size: 13px;
   font-family: constan;
 }
+
 .main__time-header {
   font-size: 30px;
   font-family: amsterdam;
@@ -570,33 +725,54 @@ body::before {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .main__time-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
+
 .main__time-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
 .main__time-number {
   font-family: avander;
   font-size: 40px;
   color: #842121;
 }
+
 .main__time-subheader {
   font-size: 20px;
   font-family: avander;
   margin-bottom: 10px;
 }
+
 .main__calendar-img-wrapper {
   position: relative;
 }
+
 .main__calendar-img-wrapper::after {
   position: absolute;
   content: "";
@@ -608,4 +784,4 @@ body::before {
   background-size: contain;
   bottom: calc(0% + 22px);
   left: calc(0% + 93px);
-}/*# sourceMappingURL=main.css.map */
+}

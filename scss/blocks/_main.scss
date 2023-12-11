@@ -194,6 +194,7 @@
     font-family: avander;
     font-size: 35px;
     color: #842121;
+    margin-bottom: 15px;
   }
 
   &__header {
@@ -352,11 +353,13 @@
   }
 
   &__time-header {
-    font-size: 20px;
+    font-size: 30px;
     font-family: amsterdam;
     margin-bottom: 40px;
     color: #842121;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   &__time-item {

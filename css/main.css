@@ -428,6 +428,7 @@ body::before {
   font-family: avander;
   font-size: 35px;
   color: #842121;
+  margin-bottom: 15px;
 }
 .main__header {
   font-family: avander;
@@ -561,11 +562,13 @@ body::before {
   font-family: constan;
 }
 .main__time-header {
-  font-size: 20px;
+  font-size: 30px;
   font-family: amsterdam;
   margin-bottom: 40px;
   color: #842121;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .main__time-item {
   display: flex;

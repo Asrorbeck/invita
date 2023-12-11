@@ -228,6 +228,24 @@ body::before {
   color: #fff;
 }
 
+.main__social-link {
+  position: relative;
+}
+
+.main__social-link::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #842121;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
 .hero__container {
   margin-bottom: 50px;
 }
@@ -330,6 +348,7 @@ body::before {
   justify-content: center;
   padding-top: 100px;
   margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 .main__dress-body {
   font-family: constan;
@@ -374,6 +393,14 @@ body::before {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
   color: #842121;
+  margin-bottom: 70px;
+}
+.main__footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 250px;
+  width: 100%;
 }
 .main__form {
   display: flex;
